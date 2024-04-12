@@ -1,4 +1,5 @@
 import './App.css';
+import PortfolioPage from './components/PortfolioPage';
 import BlogPage from './components/BlogPage';
 import Header from './components/Header';
 import HomePage from './components/HomePage';
@@ -12,7 +13,8 @@ function App() {
 
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/PortfolioPage" element={<PortfolioPage />} />
+          <Route path="/BlogPage" element={<BlogPage />} />
         </Routes>
       </div>
     </Router>

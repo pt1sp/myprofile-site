@@ -14,10 +14,10 @@ const Header = () => {
                     <Link to="/">ホーム</Link>
                 </li>
                 <li>
-                    <Link to="/blog">作品一覧</Link>
+                    <Link to="/PortfolioPage">作品一覧</Link>
                 </li>
                 <li>
-                    <Link to="">SNS</Link>
+                    <Link to="/BlogPage">ブログ</Link>
                 </li>
             </ul>
         </nav>
