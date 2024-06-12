@@ -2,7 +2,7 @@ import React from "react";
 import mysqlImage from "../Images/mysql.jpg";
 import jsImage from "../Images/js.png";
 import phpImage from "../Images/php.jpg";
-import profileImage from "../Images/me.jpg";
+import profileImage from "../Images/universe.jpg";
 import winImage from "../Images/win kinki.jpg";
 import sportsImage from "../Images/sports.png";
 import bokiImage from "../Images/boki.jpg";
