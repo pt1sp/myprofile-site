@@ -1,6 +1,6 @@
 import React from "react";
 import mysqlImage from "../Images/mysql.jpg";
-import jsImage from "../Images/js.png";
+import pythonImage from "../Images/python.jpg";
 import phpImage from "../Images/php.jpg";
 import profileImage from "../Images/universe.jpg";
 import winImage from "../Images/win kinki.jpg";
@@ -17,7 +17,7 @@ const HomePage = () => {
       <img src={profileImage} className="profileImage" />
 
       <p>
-        趣味はゲームです。１１歳の頃にはじめたスプラトゥーンというゲームを現在までずっと続けています。中学校ではバスケ部に入って運動してましたが、引退してから体育以外で運動することがなくなり、運動不足に危機感を感じたので、最近懸垂バーを購入して部屋で筋トレをしています。
+        趣味はゲームです。１１歳の頃にはじめたゲームを現在まで９年弱、合計１万時間以上続けています。中学校ではバスケ部に入って運動してましたが、引退してから体育以外で運動することがなくなり、運動不足に危機感を感じたので、最近懸垂バーを購入して部屋で筋トレをしています。宇宙や物理やコンピュータなども好きです。
       </p>
 
       <section className="page-section" id="services">
@@ -73,9 +73,9 @@ const HomePage = () => {
               <p>MySQLがつかえます</p>
             </div>
             <div className="col-md-4 services">
-              <img src={jsImage} />
-              <h4>JavaScript</h4>
-              <p>JavaScriptがつかえます</p>
+              <img src={pythonImage} />
+              <h4>Pyhton</h4>
+              <p>Pythonがつかえます</p>
             </div>
             <div className="col-md-4 services">
               <img src={phpImage} />

@@ -8,8 +8,6 @@
   font-size: 18px;
   height: 100vh;
   width: 100%;
-  /* font-weight: 400; */
-  /* font-style: normal; */
 }
 
 header {
@@ -117,7 +115,8 @@ img {
   min-height: 50px;
   margin-bottom: 50px;
 }
-.timeline > li:after, .timeline > li:before {
+.timeline > li:after,
+.timeline > li:before {
   display: table;
   content: " ";
 }
@@ -145,7 +144,7 @@ img {
 }
 .timeline > li .timeline-image {
   position: absolute;
-  
+
   left: 0;
   width: 80px;
   height: 80px;
@@ -156,7 +155,8 @@ img {
   border-radius: 100%;
   background-color: #ffc800;
 }
-.timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
+.timeline > li .timeline-image h4,
+.timeline > li .timeline-image .h4 {
   font-size: 20px;
   line-height: 14px;
   margin-top: 23px;
@@ -181,11 +181,13 @@ img {
 .timeline > li:last-child {
   margin-bottom: 0;
 }
-.timeline .timeline-heading h4, .timeline .timeline-heading .h4 {
+.timeline .timeline-heading h4,
+.timeline .timeline-heading .h4 {
   margin-top: 0;
   color: inherit;
 }
-.timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
+.timeline .timeline-heading h4.subheading,
+.timeline .timeline-heading .subheading.h4 {
   text-transform: none;
 }
 .timeline .timeline-body > ul,
@@ -213,7 +215,8 @@ img {
     height: 100px;
     margin-left: -50px;
   }
-  .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
+  .timeline > li .timeline-image h4,
+  .timeline > li .timeline-image .h4 {
     font-size: 30px;
     line-height: 18px;
     margin-top: 30px;
@@ -236,7 +239,8 @@ img {
     height: 150px;
     margin-left: -75px;
   }
-  .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
+  .timeline > li .timeline-image h4,
+  .timeline > li .timeline-image .h4 {
     font-size: 50px;
     line-height: 26px;
     margin-top: 50px;
@@ -257,7 +261,8 @@ img {
     height: 170px;
     margin-left: -85px;
   }
-  .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
+  .timeline > li .timeline-image h4,
+  .timeline > li .timeline-image .h4 {
     margin-top: 60px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {

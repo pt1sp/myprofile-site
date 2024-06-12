@@ -17,7 +17,13 @@ const Header = () => {
             <Link to="/PortfolioPage">作品一覧</Link>
           </li>
           <li>
-            <a href="https://github.com/pt1sp">Github</a>
+            <a
+              href="https://github.com/pt1sp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
           </li>
         </ul>
       </nav>
